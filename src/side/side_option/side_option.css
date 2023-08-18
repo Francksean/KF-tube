@@ -1,0 +1,18 @@
+.side_option{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90.5%;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+}
+.side_option p{
+  width: 65%;
+  text-align: start;
+}
+.side_option:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+  border-radius: 1em;
+}

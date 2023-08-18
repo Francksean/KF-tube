@@ -1,0 +1,59 @@
+.header{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 10px;
+}
+.header *{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header_leftsection{
+  width: 11em;
+  justify-content: space-between;
+}
+.header_leftsection h3{
+  margin: 0px;
+}
+.header_searchbar{
+  width: 45em;
+  justify-content: space-between;
+}
+.searchbar_input input{
+  margin: 0px;
+  border: none;
+  padding: 0px 0px 0px 15px;
+  font-size: 15px;
+  width: 25em;
+  height: 100%;
+}
+.searchbar_input{
+  border-radius:20px;
+  height: 40px;
+  width: 40em;
+  justify-content: space-between;
+  padding: 0px 0px 0px 10px;
+  border: 1.5px solid gainsboro;
+}
+.searchbar_input_left{
+  height: 100%;
+}
+.searchbar_input_right{
+  border-left: 1.5px solid gainsboro;
+  height: 100%;
+  padding: 0px;
+  width: 4.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_rightsection{
+  width: 9em;
+  justify-content: space-between;
+}
+.MuiSvgIcon-root{
+  color: blueviolet;
+}

@@ -1,0 +1,33 @@
+.rec-carousel-wrapper{
+  height: 60px;
+}
+.rec-carousel{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: fit-content;
+}
+.rec-carousel-item{
+  background-color: rgb(235, 239, 239);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 40px;
+  width: fit-content;
+  border-radius: 1em;
+  transition: 0.3s;
+}
+.rec-carousel-item:hover{
+  transform: translateX(5px);
+}
+.rec-arrow{
+  scale: 0.5;
+}
+.rec-dot{
+  display: none;
+}
+.rec-carousel-item-0{
+  background-color: black;
+  color: white;
+}

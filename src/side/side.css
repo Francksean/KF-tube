@@ -1,0 +1,42 @@
+.side{
+  width: 15.5%;
+  padding: 0px 0px 0px 0px;
+  height: 92.2vh;
+  overflow: hidden;
+}
+.side:hover{
+  overflow-y: scroll;
+}
+.side h4{
+  padding: 0px 0px 0px 10px;
+}
+.side .side_section{
+  position: relative;
+  margin-bottom: 20px;
+}
+.side .side_section::after{
+  content: '';
+  width: 100%;
+  position: absolute;
+  bottom: -5px;
+  border-bottom: 2px solid gainsboro;
+}
+
+
+*{
+  scrollbar-width: auto;
+  scrollbar-color: #d0ccd1 #ffffff;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d0ccd1;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}

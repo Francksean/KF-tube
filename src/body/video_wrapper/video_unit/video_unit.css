@@ -1,0 +1,31 @@
+.video_showcase{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  scale: 1.05;
+}
+.video_showcase img{
+  border-radius: 1em;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.video_showcase img:hover{
+  border-radius: 0px;
+}
+.video_showcase *{
+  margin: 0px;
+  padding: 0px;
+}
+.video_showcase_bottom{
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.bottom_right p{
+  margin-top: 5px;
+}
